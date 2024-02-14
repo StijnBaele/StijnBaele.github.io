@@ -3,10 +3,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="main.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <h1>Hallo, mijn naam is Stijn Baele</h1>
-    <p>ik ben 22 jaar</p>
+    <div class="menu">
+        <nav>
+            <ul>
+                <li><a href="#who">Who?</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+        <div class="main">
+        <div class="intro-container">
+            <img class="intro-img1" src="/images/Untitled-1.svg" width="100px">
+            <div class="intro">
+                <h1>Stijn Baele</h1>
+                <h3>Hi, with this website I would like to introduce myself. Be sure to take a look at my digital portfolio and don't hesitate to contact me if you have any questions.</h3>
+            </div>
+          
+            <img class="intro-img2" src="/images/Untitled-2.svg" width="100px">
+        </div>
+        <div id="who">
+            <h2>Who?</h2>
+            <h4>I am an applied computer science student who is very interested in web development and design.</h4>
+            <table>
+                <tr>
+                    <td>
+                        Nationality
+                    </td>
+                    <td>
+                        Belgium
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Date of birth
+                    </td>
+                    <td>
+                        07/07/2001
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Education
+                    </td>
+                    <td>
+                        Applied computer science at HoGent
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Specialization
+                    </td>
+                    <td>
+                        Functional & Business Analyst
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+            <div class="project1">
+                <h4>Sokoban</h4>
+                <p>In my first year we had to make a sokoban game as project.</p>
+                <p>Programming was done in Java.</p>
+                <a href="#">See more</a>
+            </div>
+            <img class="project-img" width="200px" src="/images/Untitled-3.svg">
+            <div class="project2">
+                <h4>Actemium ticketing system</h4>
+                <p>As project in my second year we had to make a ticketing system for our client Actemium</p>
+                <p>Programming was done in Java and .Net (C#).</p>
+                <a href="#">See more</a>
+            </div>
+            <div class="project3">
+                <h4>Website for Maldegem</h4>
+                <p>The most recent project was creating a leisure website for Maldegem</p>
+                <p>Programming was done in Drupal.</p>
+                <a href="#">See more</a>
+                
+            </div>
+             </div>
+        </div>
+        <div id="skills">
+            <h2>Skills</h2>
+            <table class="table-left">
+                <tr>
+                    <td>HTML/CSS</td>
+                    <td> 
+                        <div class="progress"> 
+                        <div class="progress-fill" style="width: 90%;"></div>
+                    </div></td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>
+                        <div class="progress"> 
+                            <div class="progress-fill" style="width: 70%;"></div>
+                        </div>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>C#</td>
+                    <td>
+                        <div class="progress"> 
+                            <div class="progress-fill" style="width: 70%;"></div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Javascript</td>
+                    <td>
+                        <div class="progress"> 
+                            <div class="progress-fill" style="width: 60%;"></div>
+                        </div>
+                    </td>
+                </tr>
+              
+            </table>
+            <table class="table-right">
+                <tr>
+                    <td>Drupal</td>
+                    <td>
+                        <div class="progress"> 
+                            <div class="progress-fill" style="width: 70%;"></div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Adobe Photoshop</td>
+                    <td>
+                        <div class="progress"> 
+                            <div class="progress-fill" style="width: 70%;"></div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            
+        </div>
+        <div id="cv">
+            <h2>Resume</h2>
+            <p>Download my resume <a href="cv.pdf" download>here</a></p>
+        </div>
+    
+        <div id="contact">
+            <h2>Contact</h2>
+            <a href="mailto: stijnbaele@hotmail.com"><img src="/images/mail.png" alt="mail"></a>
+            <a href="https://www.linkedin.com/in/stijn-baele/" target="_blank" ><img src="/images/linkedin-logo.png" alt="linkedin"></a>
+        </div>
+    
+    </div>
 </body>
 </html>
