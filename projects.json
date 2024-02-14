@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Sokoban",
+        "description" : "In my first year we had to make a sokoban game as project.",
+        "programming_language": "Java"
+    },
+    {
+        "title": "Actemium ticketing system",
+        "description" : "As project in my second year we had to make a ticketing system for our client Actemium",
+        "programming_language" : "Java & Net"
+    },
+    {
+        "title": "Website for Maldegem",
+        "description" : "The most recent project was creating a leisure website for Maldegem",
+        "programming_language" : "Drupal"
+    }
+]
