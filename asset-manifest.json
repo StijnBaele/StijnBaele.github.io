@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.f855e6bc.css",
-    "main.js": "/static/js/main.b39ed4b3.js",
+    "main.css": "/static/css/main.9f12fd0b.css",
+    "main.js": "/static/js/main.9df1f277.js",
+    "static/media/stijn.jpg": "/static/media/stijn.ceb4d1473ac67a17aa89.jpg",
+    "static/media/Linkedin-Logo.png": "/static/media/Linkedin-Logo.1b4071d0891e44a8d69b.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.f855e6bc.css.map": "/static/css/main.f855e6bc.css.map",
-    "main.b39ed4b3.js.map": "/static/js/main.b39ed4b3.js.map"
+    "main.9f12fd0b.css.map": "/static/css/main.9f12fd0b.css.map",
+    "main.9df1f277.js.map": "/static/js/main.9df1f277.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.b39ed4b3.js"
+    "static/css/main.9f12fd0b.css",
+    "static/js/main.9df1f277.js"
   ]
 }
